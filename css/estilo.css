@@ -1,0 +1,89 @@
+/*    font-family: 'Asap', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Open Sans', sans-serif;
+    */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: #2e64a1;
+    padding: 16px; /*Me da un espacio para que quede lindo*/
+}
+
+header h1{
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    display: inline;
+    position: relative; /*Position relativa y el bottom ayudan a centrar el titulo*/
+    bottom: 35px;
+    margin-left: 12px;
+}
+nav{
+    background-color: #6da9ed;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-evenly;
+}
+
+nav ul li a:hover{
+    background-color: rgb(0, 0, 0,0.3);
+    /*Cambia el color cuando posas el mouse sobre la lista*/
+}
+
+nav ul li a.activo{
+    background-color: #4c76a5;
+}
+
+footer{
+    background-color: #ddd;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.holder{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+h2{
+    color: #2e64a1;
+    font-weight: 500;
+}
+.columnas{ /*Esto separa ambos h2*/
+    display: flex;
+    gap: 20px;
+}
+
+.bienvenidos{
+    width: 75%; /*El espacio que va a ocupar*/
+    
+}
+.testimonios{
+    width: 25%;
+    margin-left: 20px;    
+}
+
+.testimonio{
+    background-color: #ddd;
+    padding: 16px;
+
+}
