@@ -159,5 +159,40 @@ h2{
     font-size: 14px;
     text-align: left;
 }
+/*Fin Nosotros*/
 
 
+/*Inicio Contacto*/
+
+
+.contacto{
+    display: flex;
+    gap: 20px; /*Separa los elementos*/
+    justify-content: space-around;/*Deja la pantalla en mitades*/
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+
+}
+
+.datos ul li{
+    font-size: 14px;
+    list-style: none;
+}
+.formulario p{
+    display: flex;/*Acomoda elementos uno al lado del otro*/
+}
+
+.formulario p input,
+.formulario p textarea{
+    width: 70%;
+}
+.formulario p label{
+    width: 80px;
+    /*display: block;*/
+}
