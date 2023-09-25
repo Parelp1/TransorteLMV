@@ -57,6 +57,7 @@ footer{
     background-color: #ddd;
     padding: 25px 0;
     text-align: center;
+    margin-top: 20px;
 }
 
 .holder{
@@ -87,3 +88,18 @@ h2{
     padding: 16px;
 
 }
+.testimonios .cita{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    font-style: italic  ;
+}
+.testimonio .autor{
+    font-size: 12px;
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
